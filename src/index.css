@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-i{
-  transform: translateY(-2px); 
+i {
+  transform: translateY(-2px);
 }
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -51,7 +51,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -76,7 +76,7 @@ button:focus-visible {
   }
 }
 
-nav{
+nav {
   display: flex;
   flex-direction: column;
   align-items: center;
