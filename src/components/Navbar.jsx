@@ -4,12 +4,12 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav className=' flex flex-wrap items-center justify-between px-2 py-3 bg-gray-900 '>
+      <nav className=' flex flex-wrap items-center justify-between px-2 py-3 bg-gray-dark  '>
         <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
           <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
             <a
-              className='text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white'
-              href='#pablo'>
+              className='text-gray-light text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white'
+              href='/'>
               CBO LANDING
             </a>
             <button
@@ -26,9 +26,9 @@ export default function Navbar({ fixed }) {
             }
             id='example-navbar-danger'>
             <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
-              <li className='nav-item'>
+              <li className='nav-item '>
                 <a
-                  className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
+                  className=' text-gray-light px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
                   href='#pablo'>
                   <i className='fab fa-facebook-square text-lg leading-lg text-white opacity-75'></i>
                   <span className='ml-2'>Share</span>
@@ -36,7 +36,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className='nav-item'>
                 <a
-                  className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
+                  className='text-gray-light px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
                   href='#pablo'>
                   <i className='fab fa-twitter text-lg leading-lg text-white opacity-75'></i>
                   <span className='ml-2'>Tweet</span>
@@ -44,7 +44,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className='nav-item'>
                 <a
-                  className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
+                  className='text-gray-light px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
                   href='#pablo'>
                   <i className='fab fa-pinterest text-lg leading-lg text-white opacity-75'></i>
                   <span className='ml-2'>Pin</span>

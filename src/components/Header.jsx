@@ -6,7 +6,7 @@ function Header() {
 
   return (
     <>
-      <header className='contenedor h-screen'>
+      <header className='contenedor bg-gradient-to-r from-blue to-purple bg-gradient  h-screen'>
         <div className='flex'>
           <a href='https://vitejs.dev' target='_blank'>
             <img src='/vite.svg' className='logo' alt='Vite logo' />

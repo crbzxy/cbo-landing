@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className=" w-full relative bg-gray-600 pt-8 pb-6">
+    <footer className=" w-full relative bg-gray-dark pt-8 pb-6">
       <div
         className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style={{ height: "80px" }}
@@ -13,11 +13,12 @@ export default function Footer() {
           preserveAspectRatio="none"
           version="1.1"
           viewBox="0 0 2560 100"
+          fill="#273444"
           x="0"
           y="0"
         >
           <polygon
-            className="text-gray-600 fill-current"
+            className=" red fill-current"
             points="2560 0 2560 100 0 100"
           ></polygon>
         </svg>
@@ -29,7 +30,7 @@ export default function Footer() {
             ¡Mantengámonos en contacto!
 
             </h4>
-            <h5 className="text-lg mt-0 mb-2 text-gray-100">
+            <h5 className="text-lg mt-0 mb-2 text-blue">
             Encuéntranos en cualquiera de estas plataformas,<br/> respondemos 1-2 días hábiles.
 
             </h5>
@@ -63,27 +64,27 @@ export default function Footer() {
           <div className="w-full lg:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6">
               <div className="w-full lg:w-4/12 px-4 ml-auto">
-                <span className="block uppercase text-gray-100 text-sm font-semibold mb-2">
+                <span className="block uppercase text-white text-sm font-semibold mb-2">
                   Useful Links
                 </span>
                 <ul className="list-unstyled">
                   <li>
-                    <a className="text-gray-100 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-green hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/presentation">About Us
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-100 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-green hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://blog.creative-tim.com">Blog
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-100 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-green hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://www.github.com/creativetimofficial">Github
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-100 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-green hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/bootstrap-themes/free">Free Products
                     </a>
                   </li>
@@ -91,27 +92,27 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="w-full lg:w-4/12 px-4">
-                <span className="block uppercase text-gray-100 text-sm font-semibold mb-2">
+                <span className="block uppercase text-green text-sm font-semibold mb-2">
                   Other Resources
                 </span>
                 <ul className="list-unstyled">
                   <li>
-                    <a className="text-gray-100 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-text-green hover:text-gray-900 font-semibold block pb-2 text-sm"
                     href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT License
                   </a>
                   </li>
                   <li>
-                    <a className="text-gray-100 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-text-green hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/terms">Terms & Conditions
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-100 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-text-green hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/privacy">Privacy Policy
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-100 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-text-green hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/contact-us">Contact Us
                     </a>
                   </li>
@@ -124,11 +125,11 @@ export default function Footer() {
         <hr className="my-6 border-gray-400" />
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div className="text-sm text-gray-100 font-semibold py-1">
+            <div className="text-sm text-text-green font-semibold py-1">
               Copyright © {new Date().getFullYear()}{" "}Tailwind  Kit by{" "}
               <a
                 href="https://www.creative-tim.com"
-                className="text-gray-100 hover:text-gray-900"
+                className="text-text-green hover:text-gray-900"
               >
                Carlos Boyzo
               </a>.
